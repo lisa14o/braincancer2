@@ -1,0 +1,669 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	
+}
+
+#wrapper {
+	width: 73%;
+	
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+h1 {
+	font-family: 'Quattrocento Sans', sans-serif;
+	text-align: center;
+	color: #F6EFD3;
+}
+
+h2 {
+	font-family: 'Quattrocento Sans', sans-serif;
+	text-align: center;
+	color: #F6EFD3;
+}
+
+h3 {
+	font-family: 'Quattrocento Sans', sans-serif;
+	color: #F6EFD3;
+	text-align: center;
+}
+
+h4 {
+	font-family: 'Quattrocento Sans', sans-serif;
+	color: #0A1C28;
+	text-align: center;	
+}
+
+h5 {
+	font-family: 'Quattrocento Sans', sans-serif;
+	color: #0A1C28;
+	text-align: center;	
+}
+
+p {
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+img {
+	width: 100%;
+	
+}
+/*----------------------------END BASICS--------------------------------*/
+
+/*------------------------------HEADER----------------------------------*/
+
+header {
+	width: 100%;
+	
+}
+
+/*---------------------------------NAV-----------------------------------*/
+
+#nav {
+	width: 100%;
+	
+	height: 50px;
+	line-height: 50px;
+	clear: both;
+}
+
+#nav ul {
+	text-align: center;
+}
+
+#nav li {
+	color: #0A1C28;
+	width: 14.2857%;
+	display: inline;
+	float: left;
+	text-decoration: none;
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+#nav li a {
+	display: block;
+	color: #0A1C28;
+	text-decoration: none;
+}
+
+#nav li a:hover {
+	
+	color: white;
+}
+
+/*-------------------------------END NAV----------------------------------*/
+
+/*------------------------------END HEADER--------------------------------*/
+
+
+/*--------------------------------BANNER----------------------------------*/
+
+#description_Banner {
+	width: 98%;
+	
+	overflow: hidden;
+	padding: .6em;
+}
+
+#description_Banner h1 {
+	text-align: center;
+	color: #F6EFD3;
+	
+}
+
+#description_Banner p {
+	text-align: center;
+	color: #F6EFD3;
+	font-size: 2em;
+}
+
+/*-------------------------------END BANNER------------------------------*/
+
+/*-------------------------------INTRO CHUNK-----------------------------*/
+
+#slider {
+	width: 100%;
+	height: 400px;
+	background: #ccc;
+	margin-bottom: 1.5em;
+}
+
+#intro_Chunk {
+	width: 100%;
+	
+	border: 1px white solid;
+	overflow: hidden;
+	margin-bottom: 2em;
+}
+
+#intro_Chunk main {
+	width: 62%;
+	border: 1px white solid;
+	float: left;
+	padding: .3em;
+}
+
+#intro_Chunk aside {
+	width: 34%;
+	border: 1px white solid;
+	float: right;
+	padding: .5em;
+}
+
+
+
+/*----------------------------END INTRO CHUNK----------------------------*/
+
+
+main.blog_Article {
+	width: 63%;
+	float: left;
+	background: #71A7A2;
+	border: 1px solid white;
+	padding: 1em;
+}
+
+p.excerpt {
+	font-size: 25px;
+	text-align: center;
+}
+
+
+/*------------------------------THREE ROWS-------------------------------*/
+
+
+#three_Rows {
+	width: 30%;
+	
+	float: right;
+}
+
+.row {
+	width: 90%;
+	
+	clear: both;
+	margin: 1em auto;
+	border: 1px white solid;
+	overflow: hidden;
+}
+
+/*--------------------------END FEATUED CONTENT--------------------------*/
+
+/*-----------------------------SUBMENU BOXES-----------------------------*/
+
+#submenu_Box {
+	width: 100%;
+	
+	overflow: hidden;
+	border: 1px solid white;
+}
+
+#submenu_Box h2 {
+	color: #0A1C28; 
+}
+
+main.right {
+	width: 50%;
+	float: right;
+	border: 1px white solid;
+	margin-right: 3em;
+	padding: .3em;
+}
+
+main.left {
+	width: 50%;
+	float: left;
+	border: 1px white solid;
+	margin-left: 3em;
+	padding: .3em;
+}
+
+aside.right {
+	width: 33%;
+	display: block;
+	float: right;
+	border: 1px white solid;
+	margin-right: 3em;
+	padding: .3em;
+}
+
+aside.left {
+	width: 33%;
+	display: block;
+	float: left;
+	border: 1px white solid;
+	margin-left: 3em;
+	padding: .3em;
+}
+
+aside img {
+	width: 100%;
+	height: 230px;
+	padding: 0;
+}
+
+/*--------------------------END SUBMENU BOXES----------------------------*/
+
+/*-----------------------------SUBMENU BOXES-----------------------------*/
+
+#blog_List {
+	width: 67%;
+	float: left;
+}
+
+.snippet {
+	width: 100%;
+	
+	display: block;
+	border: 1px white solid;
+	overflow: hidden;
+}
+
+main.snippet_Right {
+	width: 50%;
+	float: right;
+	border: 1px white solid;
+	margin: .7em;
+}
+
+aside.snippet_Left {
+	width: 40%;
+	display: block;
+	float: left;
+	border: 1px white solid;
+	margin: .7em;	
+}
+
+aside img {
+	height: 230px;
+}
+/*--------------------------END SUBMENU BOXES----------------------------*/
+
+/*------------------------------MAIN INFO--------------------------------*/
+
+#main_Info {
+	width: 96.57%;
+	
+	color: #F6EFD3;
+	clear: both;
+	overflow: hidden;
+	padding: 1em;
+}
+
+
+#main_Info img {
+	float: right;
+	width: 50%;
+	display: block;
+}
+
+/*----------------------------END MAIN INFO-----------------------------*/
+
+/*---------------------------------COL3---------------------------------*/
+
+#col3 {
+	width: 100%;
+	
+	overflow: hidden;
+	border: 1px solid white;
+	margin-bottom: 1.5em;
+}
+
+.col {
+	width: 31%;
+	
+	float: left;
+	padding: .3em;
+	display: block;
+}
+
+
+.col h3 {
+	color: #0A1C28;
+}
+
+.col_Middle {
+	margin-right: .7em;
+	margin-left: .7em;
+	width: 31%;
+	
+	float: left;
+	padding: .3em;
+	display: block;
+}
+
+.col_Middle h3 {
+	color: #0A1C28;
+}
+
+/*-------------------------------END COL3--------------------------------*/
+
+/*--------------------------------FOOTER---------------------------------*/
+
+footer {
+	margin-top: 50px;
+	background: #42848D;
+	height: 200px;
+}
+
+/*-------------------------------END FOOTER-------------------------------*/
+
+/*-------------------------------RESPONSIVE-------------------------------*/
+
+@media screen and (max-width: 768px) {
+
+	#wrapper {
+		width: 95%;
+		
+		margin: 0 auto;
+	}
+
+	h1 {
+		font-family: 'Quattrocento Sans', sans-serif;
+		color: #F6EFD3;
+		font-size: 50px;
+	}
+
+	h2 {
+		font-family: 'Quattrocento Sans', sans-serif;
+		text-align: center;
+		color: #F6EFD3;
+		font-size: 40px;
+	}
+
+	h3 {
+		font-family: 'Quattrocento Sans', sans-serif;
+		color: #F6EFD3;
+		font-size: 1.5em;
+	}
+
+	h4 {
+		font-family: 'Quattrocento Sans', sans-serif;
+		color: #0A1C28;
+		font-size: 1em;
+	}
+
+	h5 {
+		font-family: 'Quattrocento Sans', sans-serif;
+		color: #0A1C28;
+		font-size: 1em;
+	}
+
+	header {
+		background: blue;
+	}
+
+	#logo {
+		display: none;
+	}
+
+	#nav ul {
+		display: none;
+	}
+
+
+	#description_Banner {
+		width: 96.8%;
+		height: auto;
+		margin: 0;
+		padding: 1em;
+	}
+
+	#description_Banner h1 {
+		text-align: center;
+	}
+
+	#description_Banner p  {
+		text-align: center;
+		font-size: 1.3em;
+		padding: 0;
+		margin: 0;
+	}
+
+	p {
+		font-family: 'Quattrocento Sans', sans-serif;
+		line-height: 2em;
+		font-size: 1.4em;
+	}
+
+	/*-----------------------------SUBMENU BOXES-----------------------------*/
+
+	#submenu_Box {
+		margin-top: 0;
+	}
+
+	main.right {
+		width: 80%;
+		height: auto;
+		float: none;
+		margin: .5em auto;
+		border: none;
+		border: 1px solid white;
+	}
+
+	main.left {
+		width: 80%;
+		height: auto;
+		float: none;
+		margin: .5em auto;
+		border: none;
+		border: 1px solid white;
+	}
+
+	aside.right {
+		width: 80%;
+		float: none;
+		margin: 1em auto;
+		border: none;
+		border: 1px solid white;
+	}
+
+	aside.left {
+		width: 80%;
+		height: auto;
+		float: none;
+		margin: 1em auto;
+		border: none;
+		border: 1px solid white;	
+	}
+	
+
+	
+	
+
+
+/*--------------------------END SUBMENU BOXES----------------------------*/
+
+/*---------------------------------COL3---------------------------------*/
+
+	#col3 {
+		margin-bottom: 0;
+	}
+
+	.col {
+		width: 95%;
+		border: 1px solid white;
+		float: none;
+		padding: 1em;
+		overflow: hidden;
+	}
+
+	.col img {
+		width: 30%;
+		margin: 0 ;
+		padding: .5em .5em 0 0;
+		display: block;
+		float: left;
+	}
+
+	.col_Middle {
+		width: 95%;
+		border: 1px solid white;
+		float: none;
+		padding: 1em;
+		overflow: hidden;
+		margin: 0;
+	}
+
+	.col_Middle img {
+		width: 30%;
+		margin: 0;
+		padding: .5em .5em 0 0;
+		display: block;
+		float: left;
+	}
+
+/*-------------------------------END COL3--------------------------------*/
+
+/*-------------------------------INTRO CHUNK-----------------------------*/
+
+	#intro_Chunk {
+		width: 100%;
+		background: #71A7A2;
+		overflow: hidden;
+		padding-top: 0;
+		margin-bottom: 0;
+	}
+
+	#intro_Chunk main {
+		width: 58%;
+		border: 1px white solid;
+		float: left;
+		margin-top: 0;
+		margin-bottom: 0;
+		padding: .5em;
+	}
+
+	#intro_Chunk aside {
+		width: 35%;
+		border: 1px white solid;
+		float: right;
+		margin-top: 3em;
+	}
+
+	#slider {
+		display: none;
+	}
+
+/*----------------------------END INTRO CHUNK----------------------------*/
+
+
+/*-----------------------------BLOG ARTICLE------------------------------*/
+
+	main.blog_Article {
+		width: 100%;
+		float: left;
+		background: #71A7A2;
+	}
+
+	main.blog_Article h4 {
+		text-align: center;
+	}
+
+	p.excerpt {
+		font-size: 25px;
+		text-align: center;
+		padding: .5em;
+	}
+
+/*---------------------------END BLOG ARTICLE----------------------------*/
+
+/*------------------------------THREE ROWS-------------------------------*/
+
+	#three_Rows {
+		width: 70%;
+		background: #8D95A6;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.row {
+		width: 100%;
+		background: #8D95A6;
+		clear: both;
+		margin: 20px auto;
+		border: 1px white solid;
+		overflow: hidden;
+	}
+
+	#social {
+		width: 100%;
+		height: 150px;
+		background: #71A7A2;
+		margin-top: 0;
+	}
+
+	.social_Box {
+		width: 8%;
+		height: 50px;
+		background: white;
+		margin: 40px 85px 40px 85px;
+		display: block;
+		float: left;
+	}
+
+/*--------------------------END FEATUED CONTENT--------------------------*/
+
+/*------------------------------MAIN INFO--------------------------------*/
+
+	#main_Info {
+		width: 96.57%;
+		background: #8D95A6;
+		color: #F6EFD3;
+		clear: both;
+		overflow: hidden;
+		padding: .7em;
+	}
+
+
+	#main_Info img {
+		float: none;
+		width: 98%;
+		margin: .3em auto;
+	}
+
+/*----------------------------END MAIN INFO-----------------------------*/
+
+	#blog_List {
+		width: 100%;
+		float: left;
+	}
+
+	.snippet {
+		width: 100%;
+		background: #71A7A2;;
+		display: block;
+		border: 1px white solid;
+		overflow: hidden;
+	}
+
+	main.snippet_Right {
+		width: 50%;
+		float: right;
+		border: 1px white solid;
+		margin: .7em;
+	}
+
+	aside.snippet_Left {
+		width: 40%;
+		display: block;
+		float: left;
+		border: 1px white solid;
+		margin: .7em;	
+	}
+
+	aside img {
+		height: 230px;
+	}
+
+}
+
+
+
+
+
+

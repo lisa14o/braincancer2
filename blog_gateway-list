@@ -1,0 +1,163 @@
+<!--TEMPLATE FOR BLOG GATEWAY
+paige f | 12\2\15
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>BLOG GATEWAY</title>
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+<link href='https://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+<link href="css/style4.css" rel="stylesheet" type="text/css" >
+<link rel="shortcut icon" href= "" type="image/png">
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+	
+<div id="wrapper">
+
+	<!--~~~~~~~~~~~~~~~~~~~~MAIN CONTENT~~~~~~~~~~~~~~~~~~~~~-->
+	<div id="mainContent">
+	<div id="col3">
+			
+				
+				<div class="col">
+					<h3>FEATURED VIDEO</h3>
+					<img src="images/scientists.jpg" alt="scientists">
+					<h4>LONG DESCRIPTIVE HEADLINE THAT MAY LAST A LONG TIME</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque, enim at dapibus luctus, enim nulla tincidunt enim, sed lobortis eros arcu id purus. Nunc scelerisque dui metus. Sed nec condimentum ipsum, et mattis ante. Quisque ut molestie mauris. Nulla ornare lorem sollicitudin, faucibus tortor vitae, molestie ante. Suspendisse rhoncus faucibus sollicitudin.</p>
+				</div><!--end class col-->
+
+				<div class="col_Middle">
+					<h3>RECENT ARTICLES</h3>
+					<img src="images/scientists.jpg" alt="scientists">
+					<h4>LONG DESCRIPTIVE HEADLINE THAT MAY LAST A LONG TIME</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque, enim at dapibus luctus, enim nulla tincidunt enim, sed lobortis eros arcu id purus. Nunc scelerisque dui metus. Sed nec condimentum ipsum, et mattis ante. Quisque ut molestie mauris. Nulla ornare lorem sollicitudin, faucibus tortor vitae, molestie ante. Suspendisse rhoncus faucibus sollicitudin.</p>
+				</div><!--end class col-->
+
+				<div class="col">
+					<h3>RECENT TWEETS</h3>
+					<img src="images/scientists.jpg" alt="scientists">
+					<h4>LONG DESCRIPTIVE HEADLINE THAT MAY LAST A LONG TIME</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque, enim at dapibus luctus, enim nulla tincidunt enim, sed lobortis eros arcu id purus. Nunc scelerisque dui metus. Sed nec condimentum ipsum, et mattis ante. Quisque ut molestie mauris. Nulla ornare lorem sollicitudin, faucibus tortor vitae, molestie ante. Suspendisse rhoncus faucibus sollicitudin.</p>
+				</div><!--end class col-->
+
+			
+		</div><!--end col3-->
+        	<div id="col3">
+			
+				
+				<div class="col">
+					<h3>FEATURED VIDEO</h3>
+					<img src="images/scientists.jpg" alt="scientists">
+					<h4>LONG DESCRIPTIVE HEADLINE THAT MAY LAST A LONG TIME</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque, enim at dapibus luctus, enim nulla tincidunt enim, sed lobortis eros arcu id purus. Nunc scelerisque dui metus. Sed nec condimentum ipsum, et mattis ante. Quisque ut molestie mauris. Nulla ornare lorem sollicitudin, faucibus tortor vitae, molestie ante. Suspendisse rhoncus faucibus sollicitudin.</p>
+				</div><!--end class col-->
+
+				<div class="col_Middle">
+					<h3>RECENT ARTICLES</h3>
+					<img src="images/scientists.jpg" alt="scientists">
+					<h4>LONG DESCRIPTIVE HEADLINE THAT MAY LAST A LONG TIME</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque, enim at dapibus luctus, enim nulla tincidunt enim, sed lobortis eros arcu id purus. Nunc scelerisque dui metus. Sed nec condimentum ipsum, et mattis ante. Quisque ut molestie mauris. Nulla ornare lorem sollicitudin, faucibus tortor vitae, molestie ante. Suspendisse rhoncus faucibus sollicitudin.</p>
+				</div><!--end class col-->
+
+				<div class="col">
+					<h3>RECENT TWEETS</h3>
+					<img src="images/scientists.jpg" alt="scientists">
+					<h4>LONG DESCRIPTIVE HEADLINE THAT MAY LAST A LONG TIME</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque, enim at dapibus luctus, enim nulla tincidunt enim, sed lobortis eros arcu id purus. Nunc scelerisque dui metus. Sed nec condimentum ipsum, et mattis ante. Quisque ut molestie mauris. Nulla ornare lorem sollicitudin, faucibus tortor vitae, molestie ante. Suspendisse rhoncus faucibus sollicitudin.</p>
+				</div><!--end class col-->
+
+			
+		</div><!--end col3-->
+        	<div id="col3">
+			
+				
+				<div class="col">
+					<h3>FEATURED VIDEO</h3>
+					<img src="images/scientists.jpg" alt="scientists">
+					<h4>LONG DESCRIPTIVE HEADLINE THAT MAY LAST A LONG TIME</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque, enim at dapibus luctus, enim nulla tincidunt enim, sed lobortis eros arcu id purus. Nunc scelerisque dui metus. Sed nec condimentum ipsum, et mattis ante. Quisque ut molestie mauris. Nulla ornare lorem sollicitudin, faucibus tortor vitae, molestie ante. Suspendisse rhoncus faucibus sollicitudin.</p>
+				</div><!--end class col-->
+
+				<div class="col_Middle">
+					<h3>RECENT ARTICLES</h3>
+					<img src="images/scientists.jpg" alt="scientists">
+					<h4>LONG DESCRIPTIVE HEADLINE THAT MAY LAST A LONG TIME</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque, enim at dapibus luctus, enim nulla tincidunt enim, sed lobortis eros arcu id purus. Nunc scelerisque dui metus. Sed nec condimentum ipsum, et mattis ante. Quisque ut molestie mauris. Nulla ornare lorem sollicitudin, faucibus tortor vitae, molestie ante. Suspendisse rhoncus faucibus sollicitudin.</p>
+				</div><!--end class col-->
+
+				<div class="col">
+					<h3>RECENT TWEETS</h3>
+					<img src="images/scientists.jpg" alt="scientists">
+					<h4>LONG DESCRIPTIVE HEADLINE THAT MAY LAST A LONG TIME</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque, enim at dapibus luctus, enim nulla tincidunt enim, sed lobortis eros arcu id purus. Nunc scelerisque dui metus. Sed nec condimentum ipsum, et mattis ante. Quisque ut molestie mauris. Nulla ornare lorem sollicitudin, faucibus tortor vitae, molestie ante. Suspendisse rhoncus faucibus sollicitudin.</p>
+				</div><!--end class col-->
+
+			
+		</div><!--end col3-->
+        	<div id="col3">
+			
+				
+				<div class="col">
+					<h3>FEATURED VIDEO</h3>
+					<img src="images/scientists.jpg" alt="scientists">
+					<h4>LONG DESCRIPTIVE HEADLINE THAT MAY LAST A LONG TIME</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque, enim at dapibus luctus, enim nulla tincidunt enim, sed lobortis eros arcu id purus. Nunc scelerisque dui metus. Sed nec condimentum ipsum, et mattis ante. Quisque ut molestie mauris. Nulla ornare lorem sollicitudin, faucibus tortor vitae, molestie ante. Suspendisse rhoncus faucibus sollicitudin.</p>
+				</div><!--end class col-->
+
+				<div class="col_Middle">
+					<h3>RECENT ARTICLES</h3>
+					<img src="images/scientists.jpg" alt="scientists">
+					<h4>LONG DESCRIPTIVE HEADLINE THAT MAY LAST A LONG TIME</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque, enim at dapibus luctus, enim nulla tincidunt enim, sed lobortis eros arcu id purus. Nunc scelerisque dui metus. Sed nec condimentum ipsum, et mattis ante. Quisque ut molestie mauris. Nulla ornare lorem sollicitudin, faucibus tortor vitae, molestie ante. Suspendisse rhoncus faucibus sollicitudin.</p>
+				</div><!--end class col-->
+
+				<div class="col">
+					<h3>RECENT TWEETS</h3>
+					<img src="images/scientists.jpg" alt="scientists">
+					<h4>LONG DESCRIPTIVE HEADLINE THAT MAY LAST A LONG TIME</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque, enim at dapibus luctus, enim nulla tincidunt enim, sed lobortis eros arcu id purus. Nunc scelerisque dui metus. Sed nec condimentum ipsum, et mattis ante. Quisque ut molestie mauris. Nulla ornare lorem sollicitudin, faucibus tortor vitae, molestie ante. Suspendisse rhoncus faucibus sollicitudin.</p>
+				</div><!--end class col-->
+
+			
+		</div><!--end col3-->
+        	<div id="col3">
+			
+				
+				<div class="col">
+					<h3>FEATURED VIDEO</h3>
+					<img src="images/scientists.jpg" alt="scientists">
+					<h4>LONG DESCRIPTIVE HEADLINE THAT MAY LAST A LONG TIME</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque, enim at dapibus luctus, enim nulla tincidunt enim, sed lobortis eros arcu id purus. Nunc scelerisque dui metus. Sed nec condimentum ipsum, et mattis ante. Quisque ut molestie mauris. Nulla ornare lorem sollicitudin, faucibus tortor vitae, molestie ante. Suspendisse rhoncus faucibus sollicitudin.</p>
+				</div><!--end class col-->
+
+				<div class="col_Middle">
+					<h3>RECENT ARTICLES</h3>
+					<img src="images/scientists.jpg" alt="scientists">
+					<h4>LONG DESCRIPTIVE HEADLINE THAT MAY LAST A LONG TIME</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque, enim at dapibus luctus, enim nulla tincidunt enim, sed lobortis eros arcu id purus. Nunc scelerisque dui metus. Sed nec condimentum ipsum, et mattis ante. Quisque ut molestie mauris. Nulla ornare lorem sollicitudin, faucibus tortor vitae, molestie ante. Suspendisse rhoncus faucibus sollicitudin.</p>
+				</div><!--end class col-->
+
+				<div class="col">
+					<h3>RECENT TWEETS</h3>
+					<img src="images/scientists.jpg" alt="scientists">
+					<h4>LONG DESCRIPTIVE HEADLINE THAT MAY LAST A LONG TIME</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque, enim at dapibus luctus, enim nulla tincidunt enim, sed lobortis eros arcu id purus. Nunc scelerisque dui metus. Sed nec condimentum ipsum, et mattis ante. Quisque ut molestie mauris. Nulla ornare lorem sollicitudin, faucibus tortor vitae, molestie ante. Suspendisse rhoncus faucibus sollicitudin.</p>
+				</div><!--end class col-->
+
+			
+		</div><!--end col3-->
+        
+    
+    </div><!--end mainContent-->
+    
+</div><!--end wrapper-->
+	
+</body>
+</html>
+			

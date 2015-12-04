@@ -1,0 +1,228 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #71A7A2;
+}
+
+#wrapper {
+	width: 95%;
+	background: #D6DED3;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: 'Quattrocento Sans', sans-serif;
+	text-align: center;
+	color: #F6EFD3;
+	padding-top: 20px;
+	font-size: 50px;
+}
+
+h2 {
+	font-family: 'Quattrocento Sans', sans-serif;
+	text-align: center;
+	color: #F6EFD3;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 40px;
+}
+
+h3 {
+	font-family: 'Quattrocento Sans', sans-serif;
+	color: #F6EFD3;
+	padding: 20px 0 0 20px;
+	font-size: 26px;
+}
+
+h4 {
+	font-family: 'Quattrocento Sans', sans-serif;
+	color: #0A1C28;
+	padding: 10px 20px 0 20px;
+	font-size: 20px;
+}
+
+
+p {
+	font-family: 'Quattrocento Sans', sans-serif;
+	padding: 5px 20px 10px 20px;
+	line-height: 30px;
+	font-size: 20px;
+}
+/*----------------------------END BASICS--------------------------------*/
+
+/*------------------------------HEADER----------------------------------*/
+
+header {
+	width: 100%;
+	background: #42848D;
+}
+
+#logo {
+	width: 33%;
+	height: 120px;
+	background: #FA6155;
+	margin: 0 auto;
+	padding-top: 20px;
+	display: block;
+}
+
+#donate {
+	width: 400px;
+	background: #B83C31;
+	height: 100px;
+	float: right;
+}
+
+/*---------------------------------NAV-----------------------------------*/
+
+#nav {
+	width: 100%;
+	background: #F6EFD3;
+	height: 50px;
+	line-height: 50px;
+	clear: both;
+}
+
+/*-------------------------------END NAV----------------------------------*/
+
+/*------------------------------END HEADER--------------------------------*/
+
+
+/*--------------------------------BANNER----------------------------------*/
+
+#description_Banner {
+	width: 100%;
+	background: #0A1C28;
+	height: 300px;
+	margin-top: 50px;
+}
+
+#description_Banner p {
+	text-align: center;
+	padding: 20px 160px 50px 160px;
+	color: #F6EFD3;
+	font-size: 30px;
+}
+
+/*-------------------------------END BANNER------------------------------*/
+
+/*-----------------------------SUBMENU BOXES-----------------------------*/
+
+#submenu_Box {
+	width: 100%;
+	background: #FA6155;
+	overflow: hidden;
+	margin-top: 50px;
+}
+
+.box_Left {
+	width: 49.9%;
+	float: left;
+	background: #F6EFD3;
+}
+
+.box_Left img {
+	width: 90%;
+	display: block;
+	margin: auto;
+	margin: auto;
+	height: 336px;
+}
+
+.box_Right {
+	width: 50%;
+	float: right;
+	background: #F6EFD3;
+}
+
+.box_Right img {
+	width: 90%;
+	display: block;
+	margin: auto;
+	height: 336px;
+}
+
+h2.box {
+	
+	color: #0A1C28;
+}
+
+/*--------------------------END SUBMENU BOXES----------------------------*/
+
+/*------------------------------MAIN INFO--------------------------------*/
+
+#main_Info {
+	width: 100%;
+	background: #0A1C28;
+	color: #F6EFD3;
+	margin-top: 50px;
+	clear: both;
+}
+
+#main_Info img {
+	float: right;
+	width: 350px;
+	
+	padding: 10px 20px 30px 50px;
+	display: block;
+}
+
+/*----------------------------END MAIN INFO-----------------------------*/
+
+/*-------------------------------RELATED--------------------------------*/
+
+#related_Content {
+	width: 100%;
+	background: #FA6155;
+	overflow: hidden;
+	margin-top: 50px;
+}
+
+.related {
+	width: 33%;
+	background: #F6EFD3;
+	float: left;
+	margin-right: 4px;
+	margin-bottom: 20px;
+}
+
+.related img {
+	width: 90%;
+	margin: auto;
+	padding-top: 10px;
+	
+	display: block;
+}
+
+h3.relHead {
+	clear: both;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	color: #0A1C28;
+}
+
+/*------------------------------END RELATED------------------------------*/
+
+/*--------------------------------FOOTER---------------------------------*/
+
+footer {
+	margin-top: 50px;
+	background: #42848D;
+	height: 200px;
+}
+
+/*-------------------------------END FOOTER-------------------------------*/
+
+
+
+
+
+
+
+
+
+
+

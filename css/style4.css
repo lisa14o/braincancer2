@@ -5,6 +5,7 @@
 
 body {
 	font-family: sans-serif;
+    color:#4d3d3d;
 }
 
 #wrapper {
@@ -42,7 +43,7 @@ h2.mainCTA {
 .inspiringQuote {
 	background-color: #3A8142;
 	color: #ffffff;
-	font-family: 'lora' italic;
+	font-family: 'Lora Italic';
 	font-size: 1.5em;
 	float: left;
 	width: 28%;
@@ -76,7 +77,8 @@ h2.mainContentHome {
 }
 
 p.firstParagraphHome {
-	font-family: lora;
+	font-family: 'Lora';
+    font-weight:100;
 	font-size: 1.125em;
 	text-align: center;
 }
@@ -202,12 +204,14 @@ p.second_Paragraph_Dest {
 	float: left;
 }
 
-p.excerpt {
-	font-size: 1.375em;
-	text-align: center;
-	font-family:'Lora italic';
-	font-weight: 400;
+.blog p.excerpt {
+	font-size: 1.25em;
+    font-style: italic;
+	font-weight: 100;
 	color: #666;
+    text-align: center;
+    line-height: 150%;
+    font-family: 'lora';
 }
 
 h2.date {
@@ -231,14 +235,14 @@ h2.title {
 
 .blog p {
 	font-size: 1em;
-	line-height: 1.3em;
+	line-height: 150%;
 	font-family: 'Open Sans';
-	font-weight: 300;
+	font-weight: 100;
 }
 
 p.read_More {
 	font-family: 'Open Sans';
-	font-size: 1em;
+	font-size: .75em;
 	font-weight: 600;
 	color: #2EC086;
 	display: inline;
@@ -247,13 +251,17 @@ p.read_More {
 
 blockquote.pullquote {
 	font-family: 'Open Sans';
-	font-weight: 300;
+	font-weight: 100;
 	font-size: 1.563em;
-	text-transform: uppercase;
+    text-transform: uppercase;
 	padding: .6875em;
 	color: #fff;
 	background-color: #27b9e7;
 	margin: 0 auto 1.75rem auto;
+    text-align:center;
+    width:80%;
+    
+
 }
 
 .related_Article {
@@ -263,10 +271,10 @@ blockquote.pullquote {
 
 .related_Article p {
 	padding-bottom: 0;
-	font-size: 1em;
+	font-size:.80em;
 	line-height: 1.3em;
 	font-family: 'Open Sans';
-	font-weight: 300;
+	font-weight: 100;
 }
 
 h2.related {
@@ -274,8 +282,33 @@ h2.related {
 	font-size: 1.5em;
 	color: #2EC086;
 	margin-bottom: 1rem;
+    
+}
+h4.rel_article_sidebar {
+    font-family: 'Open Sans';
+    position: relative;
+    top:-10px;
+    text-transform:uppercase;
+    line-height:125%;
+    
 }
 
+img.rel_article_img {
+    margin-bottom: 0;
+    padding:0;
+}
+span img.glyph{
+width:22px;
+padding:0;
+margin:0;
+position: relative;
+top:8px;
+left:-5px;
+}
+.related_Article a {
+text-decoration: none;
+color:#2ec086;
+}
 .row {
 	width: 100%;
 	clear: both;

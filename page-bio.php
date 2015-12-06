@@ -1,8 +1,7 @@
 <?php 
 /* 
- * Template Name: Bio Gateway
- *
- */
+Template Name: Bio Gateway
+*/
 ;?>
 
     <?php get_header();?>

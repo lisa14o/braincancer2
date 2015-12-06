@@ -1,7 +1,7 @@
     /*
-Theme Name: braincancer
+Theme Name: braincancer2.0
 
-Description: A custom theme for BranCancer.org. 
+Description: A custom theme for BrainCancer.org. 
 
 Plugins used: 
 	Akismet Plugin - http://akismet.com/
@@ -103,14 +103,39 @@ GATEWAY GATEWAY GATEWAY GATEWAY
     padding: 1em 0;
     text-align: center;
 }
-
-.med_Board_Bio .features {
+#gateway_mainContent h2.name {
+    text-transform:uppercase;
+    letter-spacing: 2px;
     text-align: center;
-    padding: 1em 0;
-    text-transform: uppercase;
-    text-align: center;
+    padding-bottom: 1.5em;
+    font-size:2m;
+    font-weight:100;
+    
 }
 
+h3.gateMainContent {
+   
+    font-weight:300;
+    letter-spacing:1px;
+    width:80%;
+    margin:auto;
+    line-height: 125%;
+    font-family: 'Open Sans';
+   font-size:1.25em;
+      font-weight:400;
+}
+ h3.features {
+    text-align: center;
+     width:80%;
+     margin:auto;
+    padding: 1em 0 1.25em;
+    text-align: center;
+
+ font-weight:600;
+    line-height:125%;
+    text-transform: uppercase;
+  
+}
 
 /*
 
@@ -155,6 +180,7 @@ p:last-child {
     width: 100%;
     margin: auto;
     opacity: .30;
+	text-align:center;
 }
 
 #social_bio img {
@@ -214,6 +240,7 @@ DESTINATION DESTINATION DESTINATION DESTINATION
 #destination_wrapper #social_share_article {
     margin: auto;
     text-align: center;
+
 }
 
 #destination_wrapper #social_share_article img {
@@ -269,10 +296,76 @@ GATEWAY BLOG/LIST GATEWAY BLOG/LIST GATEWAY BLOG/LIST GATEWAY BLOG/LIST
 480 -- MOBILE FIRST -- 12/5/15 PF
 
 */
-    #blog_gateway_wrapper {}
-    #blog_gateway_wrapper #mainContent {
-        width: 82.541%;
-        padding: 0 8.709%;
+
+#blog_gateway_wrapper {
+ 	width: 82.541%;
+    padding: 0 8.709%;
+}
+
+#blog_gateway_wrapper #mainContent {
+width:82.541%;
+padding:0 8.709%;
+}
+
+#blog_gateway_title {
+text-align: center;
+    padding-top:1em;
+    padding-bottom: 1em;
+}
+.single_Post {
+width:100%;
+}
+
+.single_Post h3{
+font-family:'Lora Italic',serif, monospace;
+font-size:1.25em;
+padding:0;  
+margin:0;
+margin: 1em 0 1.5em;
+opacity: .4;
+font-style: italic;
+letter-spacing: 1px;
+}
+
+.single_Post h4 {
+text-transform: uppercase;
+font-size:1em;
+margin: 1em 0 1.5em;
+letter-spacing: 1px;
+line-height: 125%;
+width:90%;
+}
+
+.single_Post img {
+width:100%;
+padding-top: 20px;
+}  
+
+.single_Post p {
+line-height: 150%;
+padding-bottom:10px;
+}
+
+a.read_more {
+text-decoration: none;
+color:#2ec086;
+margin-bottom: 5px;
+}
+
+a.read_more:hover {
+font-weight: 600;
+}
+
+@media screen and (min-width: 767px) {
+#wrapper {
+width:85%;
+margin:auto;
+}
+.single_Post {
+
+width:33%;
+margin:1em;
+
     }
     #blog_gateway_title {
         text-align: center;

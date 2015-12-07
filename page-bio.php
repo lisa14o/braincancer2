@@ -5,7 +5,7 @@ Template Name: Bio Gateway
 ;?>
 
     <?php get_header();?>
-        <!-----page.php--------->
+        <!-----page-bio.php--------->
 
         <div id="content">
 

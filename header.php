@@ -35,7 +35,7 @@
     
     </hgroup>
    
-    <div id="mainnav"><?php wp_nav_menu(array("menu" => "Main")); ?></div>
+    <div id="mainnav"><?php wp_nav_menu(array("menu" => "lisaMainMenu")); ?></div>
     
     
     <div class="showmobile">

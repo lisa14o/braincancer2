@@ -743,18 +743,36 @@ blockquote.pullquote {
     
 
 }
+#tags {
 
+}
+#tags p {
+    font-size: .75em;
+    
+}
+#tags p a {
+    color: #000;
+    
+}
+#tags p a:hover {
+    color:#2EC086;
+}
+.row {
+margin:2em 0;
+
+}
 .related_Article {
-	width: 32%;
-	float: right;
+    width:80%;
+    margin:auto;
 }
 
 .related_Article p {
 	padding-bottom: 0;
 	font-size:.80em;
-	line-height: 1.3em;
+	line-height: 150%;
 	font-family: 'Open Sans';
 	font-weight: 100;
+    
 }
 
 h2.related {
@@ -762,20 +780,18 @@ h2.related {
 	font-size: 1.5em;
 	color: #2EC086;
 	margin-bottom: 1rem;
-    
+    text-align:center;
 }
 h4.rel_article_sidebar {
     font-family: 'Open Sans';
-    position: relative;
-    top:-10px;
+    padding:1em 0;
     text-transform:uppercase;
     line-height:125%;
     
 }
 
 img.rel_article_img {
-    margin-bottom: 0;
-    padding:0;
+margin:1em 0;
 }
 span img.glyph{
 width:22px;
@@ -785,8 +801,47 @@ position: relative;
 top:8px;
 left:-5px;
 }
-.related_Article a {
+a.read_More {
 text-decoration: none;
-color:#2ec086;
+color:#2EC086;
+padding-bottom: 1em;
+font-size:.825em;
+}
 
+a.read_More:hover {
+ font-weight:400;
     }
+
+@media screen and (min-width: 767px) {
+     #blog_article_wrapper .blog {
+     width:65%;
+         margin:auto;
+        
+     }
+    .blog {
+    width:50%;
+        margin: auto;
+    }
+    
+}
+@media screen and (min-width: 1024px) {
+     #blog_article_wrapper {
+     width:80%;
+         margin:auto;
+        
+     }
+    .blog {
+        width:40%;
+        margin: auto;
+        float:left;
+    }
+    .related_Article {
+    width:30%;
+        float:right;
+        margin-left: auto;
+    
+    }
+    .related_Article .row img.rel_article_img (
+    width:33%;
+    )
+}

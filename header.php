@@ -39,7 +39,7 @@
     
     
     <div class="showmobile">
-    <div id="donate"><a href=""><b> Donate </b> </a></div><!-- our donate button-->
+    <div id="donate"><a href="">Donate</a></div><!-- our donate button-->
             
     <form role="search" method="get" id="searchform" class="searchform" action="<?php bloginfo('home'); ?>/"><!-- our search button-->
 				<div>

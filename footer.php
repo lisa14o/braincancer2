@@ -1,8 +1,9 @@
 <div id="footer">
 <div id="donate">
-<h3>DONATE TODAY</h3>
-<div id="donatebutton"><a href="">LEARN MORE</a></div><!----End div donatebutton---->
+<h3>Donate</h3>
+<div id="donatebutton"><a href="">Learn More</a></div><!----End div donatebutton---->
 </div><!---End div donate---->
+    
 <div id="lowerfooter">
 			<ul class="socialitems">
             	<li id="twitter"><a href="https://twitter.com/nobraincancer">T</a></li>

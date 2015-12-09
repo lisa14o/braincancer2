@@ -5,7 +5,7 @@ Template Name: Bio Gateway
 ;?>
 
     <?php get_header();?>
-        <!-----page-bio.php--------->
+        
 
         <div id="content">
 
@@ -24,4 +24,4 @@ Template Name: Bio Gateway
         </div>
         <!-- #content -->
 
-        <?php get_footer(); ?>
+        <?php get_footer(); ?> 
